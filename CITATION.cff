@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "covariogram-explorer: exact covariograms of planar shapes in Python"
+type: software
+authors:
+  - family-names: "Gasparyan"
+    given-names: "Manvel"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Ghent University Global Campus"
+version: 1.1.0
+date-released: "2026-11-01"
+license: MIT
+repository-code: "https://github.com/manvelgasparyan/covariogram-explorer"
+abstract: >-
+  A Python package for the exact covariograms g(x) = area of K ∩ (K + x) of
+  planar shapes (disk, ellipse, annulus, Reuleaux triangle, parallelograms,
+  triangles and convex polygons), the distributions of distances between random
+  points and of chord lengths derived from them, the covariogram of binary
+  images, and an interactive explorer with a gallery of shapes.
+keywords:
+  - covariogram
+  - set covariance
+  - geometric probability
+  - stochastic geometry
+  - mathematical morphology
+  - Reuleaux triangle
+  - random distances
+  - interactive visualization
+references:
+  - type: unpublished
+    authors:
+      - family-names: "Gasparyan"
+        given-names: "Manvel"
+    title: "An explicit formula for the covariogram of the Reuleaux triangle"
+    year: 2026
+    notes: "Submitted manuscript"

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "covariogram-explorer"
+version = "1.1.0"
+description = "Interactive explorer for the exact covariograms of planar shapes"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Manvel Gasparyan", email = "manvel.gasparyan@ugent.be" }]
+requires-python = ">=3.9"
+dependencies = ["numpy", "matplotlib"]
+keywords = ["covariogram", "set covariance", "geometric probability",
+            "stochastic geometry", "Reuleaux triangle", "visualization"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "shapely"]
+notebook = ["ipympl"]
+
+[project.scripts]
+covariogram-explorer = "covariogram_explorer.app:main"
+
+[project.urls]
+Homepage = "https://github.com/manvelgasparyan/covariogram-explorer"
+Issues = "https://github.com/manvelgasparyan/covariogram-explorer/issues"
+
+[tool.setuptools]
+packages = ["covariogram_explorer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
