@@ -295,6 +295,4 @@ The closed form for the Reuleaux triangle is from:
 
 [MIT](LICENSE)
 
-## Acknowledgements
-
-This software was developed with the assistance of Claude (Anthropic).
+ 
