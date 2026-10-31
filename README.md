@@ -64,7 +64,7 @@ distributions from them, and lets you see what each formula describes.
 | Annulus, radii $R > r$ | $A_{RR} - 2A_{Rr} + A_{rr}$, where $A_{ab}$ is the area of two overlapping disks | closed form |
 | Reuleaux triangle | half the sum of two lens areas plus a linear term on each of 12 pieces (Gasparyan, 2026) | closed form |
 | Square, rectangle $a \times b$ | $`(a - \lvert x_1\rvert)_+ (b - \lvert x_2\rvert)_+`$ | closed form |
-| Parallelogram $M[0,1]^2$ | $\lvert\det M\rvert\,(1 - \lvert y_1\rvert)_+ (1 - \lvert y_2\rvert)_+$, where $y = M^{-1}x$ | closed form |
+| Parallelogram $M[0,1]^2$ | $`\lvert\det M\rvert\,(1 - \lvert y_1\rvert)_+ (1 - \lvert y_2\rvert)_+`$, where $y = M^{-1}x$ | closed form |
 | Any triangle $M T_0$ | $\frac{\lvert\det M\rvert}{2}\bigl(1 + \min(0, y_1 + y_2) - \max(0, y_1) - \max(0, y_2)\bigr)_+^2$, where $y = M^{-1}x$ | closed form |
 | Regular pentagon, hexagon, octagon, and any convex polygon | area of the clipped polygon (piecewise quadratic in $x$) | exact clipping |
 
