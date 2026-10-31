@@ -1,6 +1,6 @@
 # CovariogramExplorer
 
-[![tests](https://github.com/manvelgasparyan/covariogram-explorer/workflows/tests.yml/badge.svg)](https://github.com/manvelgasparyan/covariogram-explorer/actions/workflows/tests.yml)
+[![tests](https://github.com/manvelgasparyan/covariogram-explorer/workflows/tests.yml/badge.svg)](https://github.com/manvelgasparyan/covariogram-explorer/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 
